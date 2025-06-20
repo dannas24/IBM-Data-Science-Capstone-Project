@@ -176,10 +176,10 @@ def update_input_container(payload_range, entered_site):
 
 # In[10]:
 
-if __name__ == '__main__':
-    app.run(
-        host='0.0.0.0',  # Important: must be 0.0.0.0, not localhost
-        port=8050,  # Use Railway's PORT
-        debug=False
-    )
+
+app.run(
+    host='0.0.0.0',  # Important: must be 0.0.0.0, not localhost
+    port=8050,  # Use Railway's PORT
+    debug=False
+)
 
