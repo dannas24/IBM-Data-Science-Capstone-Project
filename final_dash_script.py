@@ -177,9 +177,9 @@ def update_input_container(payload_range, entered_site):
 # In[10]:
 
 if __name__ == '__main__':
-    app.run_server(
+    app.run(
         host='0.0.0.0',  # Important: must be 0.0.0.0, not localhost
-        port=int(os.environ.get('PORT', 8050)),  # Use Railway's PORT
+        port=8050,  # Use Railway's PORT
         debug=False
     )
 
